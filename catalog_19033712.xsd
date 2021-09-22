@@ -1,0 +1,234 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="schema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="MusicStore">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="StoreINFO">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="StoreName"/>
+                    <xs:element type="xs:string" name="logo"/>
+                    <xs:element name="contact">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="Address"/>
+                          <xs:element type="xs:string" name="Telephone"/>
+                          <xs:element type="xs:anyURI" name="URL"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="MusicList">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Jazz">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Genre" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Album"/>
+                                <xs:element type="xs:string" name="img1" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img2" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img3" minOccurs="0"/>
+								<xs:element name="Director">
+									<xs:complexType mixed="true">
+										<xs:sequence>
+										  <xs:element type="xs:string" name="b" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+                                <xs:element name="Producer">
+									<xs:complexType mixed="true">
+										<xs:sequence>
+										  <xs:element type="xs:string" name="b" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+                                <xs:element name="Writer">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="b" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="MusicDescription">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="b" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Released">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="b" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="Recorded">
+                                  <xs:complexType mixed="true">
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="b" minOccurs="0"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Title"/>
+                                      <xs:element type="xs:string" name="AudioFormat"/>
+                                      <xs:element type="xs:string" name="length"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="Type" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Rock">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Genre" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Album"/>
+								<xs:element type="xs:string" name="img4" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img5" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img6" minOccurs="0"/>
+								<xs:element type="xs:string" name="Director"/>
+                                <xs:element type="xs:string" name="Producer"/>
+                                <xs:element type="xs:string" name="Writer"/>
+                                <xs:element type="xs:string" name="MusicDescription"/>
+                                <xs:element type="xs:string" name="Released"/>
+                                <xs:element type="xs:string" name="Recorded"/>
+                                <xs:element name="description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Title"/>
+                                      <xs:element type="xs:string" name="AudioFormat"/>
+                                      <xs:element type="xs:string" name="length"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="Type" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CountryMusic">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Genre" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Album"/>
+								<xs:element type="xs:string" name="img7" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img8" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img9" minOccurs="0"/>
+								<xs:element type="xs:string" name="Director"/>
+                                <xs:element type="xs:string" name="Producer"/>
+                                <xs:element type="xs:string" name="Writer"/>
+                                <xs:element type="xs:string" name="MusicDescription"/>
+                                <xs:element type="xs:string" name="Released"/>
+                                <xs:element type="xs:string" name="Recorded"/>
+                                <xs:element name="description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Title"/>
+                                      <xs:element type="xs:string" name="AudioFormat"/>
+                                      <xs:element type="xs:string" name="length"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="Type" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="PopMusic">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Genre" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Album"/>
+								<xs:element type="xs:string" name="img10" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img11" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img12" minOccurs="0"/>
+								<xs:element type="xs:string" name="Director"/>
+                                <xs:element type="xs:string" name="Producer"/>
+                                <xs:element type="xs:string" name="Writer"/>
+                                <xs:element type="xs:string" name="MusicDescription"/>
+                                <xs:element type="xs:string" name="Released"/>
+                                <xs:element type="xs:string" name="Recorded"/>
+                                <xs:element name="description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Title"/>
+                                      <xs:element type="xs:string" name="AudioFormat"/>
+                                      <xs:element type="xs:string" name="length"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="Type" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+					<xs:element name="Dubstep">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Genre" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="Album"/>
+								<xs:element type="xs:string" name="img13" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img14" minOccurs="0"/>
+                                <xs:element type="xs:string" name="img15" minOccurs="0"/>
+								<xs:element type="xs:string" name="Director"/>
+                                <xs:element type="xs:string" name="Producer"/>
+                                <xs:element type="xs:string" name="Writer"/>
+                                <xs:element type="xs:string" name="MusicDescription"/>
+                                <xs:element type="xs:string" name="Released"/>
+                                <xs:element type="xs:string" name="Recorded"/>
+                                <xs:element name="description">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="Title"/>
+                                      <xs:element type="xs:string" name="AudioFormat"/>
+                                      <xs:element type="xs:string" name="length"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute type="xs:string" name="Type" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

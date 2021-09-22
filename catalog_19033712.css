@@ -1,0 +1,281 @@
+StoreINFO{
+	color:white;
+	text-align:center;
+	background-color:black;
+	display:block;
+	font-family:Arial;
+	font-size:200%;
+}
+
+StoreName{
+	display:block;
+}
+
+logo{
+	padding:1%;
+	margin-left:34%;
+	background-image: url("Images/logo.jpg");
+	height:400px;
+	width:300px;
+	display:block;	
+}
+
+Address{
+	margin-top: 1%;
+	text-align:center;
+	display:block;
+}
+
+Telephone{
+	display: block;
+}
+
+URL{
+	display: block;
+}
+
+MusicList{
+	color:white;
+	text-align:left;
+	background-color:black;
+	display:block;
+}
+
+Jazz{
+	color:white;
+	text-align:left-side;
+	background-color:black;
+	display:block;
+	font-size:21px;
+}
+
+Music{
+	color:white;
+	text-align:left-side;
+	background-color:black;
+	display:block;
+}
+
+Album{
+	padding:1%;
+	margin-top:2%;
+	color:white;
+	font-family:sans-serif;
+	font-size:40px;
+	border-style:solid;
+	display:block;
+}
+
+Director{
+	margin-top:2%;
+	display:block;
+}
+
+Producer{
+	display:block;
+}
+
+Writer{
+	display:block;
+}
+
+MusicDescription{
+	display:block;
+}
+
+Released{
+	display:block;
+}
+
+Recorded{
+	display:block;
+}
+
+description{
+	color:white;
+	text-align:left;
+	background-color:black;
+	display:block;
+}
+
+Title{
+	display:block;
+}
+
+MusicType{
+	display:block;
+}
+
+AudioFormat{
+	display:block;
+}
+
+length{
+	display:block;
+}
+
+img1{
+	background-image:url("Images/img1.jpg");
+	height:290px;
+	width:290px;
+	display:block;
+	padding:0.90%;
+	margin-right:5%;
+}
+
+img2{
+	background-image:url("Images/img2.jpg");
+	height:497px;
+	width:500px;
+	padding:1%;
+	display:block;
+	margin-right:6%;
+}
+
+img3{
+	background-image:url("Images/img3.jpeg");
+	height:800px;
+	width:800px;
+	padding:1%;
+	display:block;
+	margin-left:7%;
+}
+
+Rock{
+	color:white;
+	text-align:left-side;
+	background-color:black;
+	display:block;
+	font-size:21px;
+}
+
+img4{
+	background-image:url("Images/img4.jpg");
+	height:580px;
+	width: 360px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+img5{
+	background-image:url("Images/img5.jpg");
+	height:360px;
+	width: 250px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+img6{
+	background-image:url("Images/img6.jpg");
+	height:600px;
+	width: 600px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+CountryMusic{
+	color:white;
+	text-align:left-side;
+	background-color:black;
+	display:block;
+	font-size:21px;
+}
+
+img7{
+	background-image:url("Images/img7.jpg");
+	height:300px;
+	width: 350px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+img8{
+	background-image:url("Images/img8.jpg");
+	height:420px;
+	width: 280px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+img9{
+	background-image:url("Images/img9.jpg");
+	height:270px;
+	width: 270px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+PopMusic{
+	color:white;
+	text-align:right-side;
+	background-color:black;
+	display:block;
+	font-size:25px;
+}
+
+img10{
+	background-image:url("Images/img10.png");
+	height:430px;
+	width: 430px;
+	padding:1%;
+	display:block;
+	margin-right:6%;
+}
+
+img11{
+	background-image:url("Images/img11.jpg");
+	height:430px;
+	width: 430px;
+	padding:1%;
+	display:block;
+	margin-right:6%;
+}
+
+img12{
+	background-image:url("Images/img12.png");
+	height:180px;
+	width: 180px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+Dubstep{
+	color:white;
+	text-align:left-side;
+	background-color:black;
+	display:block;
+	font-size:25px;
+}
+img13{
+	background-image:url("Images/img13.jpg");
+	height:500px;
+	width: 500px;
+	padding:1%;
+	display:block;
+	margin-right:6%;
+}
+
+img14{
+	background-image:url("Images/img14.jpg");
+	height:170px;
+	width: 200px;
+	padding:1%;
+	display:block;
+	margin-right:7%;
+}
+
+img15{
+	background-image:url("Images/img15.jpg");
+	height:480px;
+	width: 475px;
+	padding:1%;
+	display:block;
+	margin-right:6%;
+}

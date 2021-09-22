@@ -1,0 +1,48 @@
+<!ELEMENT MusicStore (StoreINFO|MusicList)*>
+<!ELEMENT StoreINFO (StoreName|logo|contact)*>
+<!ELEMENT StoreName (#PCDATA)>
+<!ELEMENT logo EMPTY>
+<!ELEMENT contact (Address,Telephone,URL)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT Telephone (#PCDATA)>
+<!ELEMENT URL (#PCDATA)>
+
+<!ELEMENT MusicList (Jazz|Rock|CountryMusic|PopMusic|Dubstep)*>
+<!ELEMENT Jazz (Genre)*>
+<!ELEMENT Genre (Album|img1|img2|img3|img4|img5|img6|img7|img8|img9|img10|img11|img12|img13|img14|img15|Director|Producer|Writer|MusicDescription|Released|Recorded|description)*>
+<!ELEMENT Album (#PCDATA)>
+
+<!ELEMENT img1 EMPTY>
+<!ELEMENT img2 EMPTY>
+<!ELEMENT img3 EMPTY>
+<!ELEMENT img4 EMPTY>
+<!ELEMENT img5 EMPTY>
+<!ELEMENT img6 EMPTY>
+<!ELEMENT img7 EMPTY>
+<!ELEMENT img8 EMPTY>
+<!ELEMENT img9 EMPTY>
+<!ELEMENT img10 EMPTY>
+<!ELEMENT img11 EMPTY>
+<!ELEMENT img12 EMPTY>
+<!ELEMENT img13 EMPTY>
+<!ELEMENT img14 EMPTY>
+<!ELEMENT img15 EMPTY>
+
+<!ELEMENT Director (#PCDATA)>
+<!ELEMENT Producer (#PCDATA)>
+<!ELEMENT Writer (#PCDATA)>
+<!ELEMENT MusicDescription (#PCDATA)>
+<!ELEMENT Released (#PCDATA)>
+<!ELEMENT Recorded (#PCDATA)>
+
+<!ELEMENT description (Title,AudioFormat,length)>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT AudioFormat (#PCDATA)>
+<!ELEMENT length (#PCDATA)>
+
+<!ELEMENT Rock (Genre)*>
+<!ELEMENT CountryMusic (Genre)*>
+<!ELEMENT PopMusic (Genre)*>
+<!ELEMENT Dubstep (Genre)*>
+
+<!ATTLIST Genre Type CDATA #REQUIRED>

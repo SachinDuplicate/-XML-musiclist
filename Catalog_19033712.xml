@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/css" href="Catalog_19033712.css"?>
+
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Catalog_19033712.xsd">
+
+<MusicStore>
+	<StoreINFO>
+		<StoreName>Duplicate Music Store</StoreName>
+		<logo></logo>
+		<contact>
+			<Address>Kathmandu, Nepal</Address>
+			<Telephone>Phone: 01234567</Telephone>
+			<URL>www.duplicatemusic.com</URL>
+		</contact>
+	</StoreINFO>
+	
+	<MusicList>
+		<Jazz>
+			<Genre Type="Jazz">
+				<Album>Time Out</Album>
+				<img1></img1>
+				<Director>Director: </Director>
+				<Producer>Producer: Teo Macero</Producer>
+				<Writer>Writer: Paul Desmond</Writer>
+				<MusicDescription>Description: "Take Five" is a jazz standard composed by saxophonist Paul Desmond and originally recorded by the Dave Brubeck Quartet for their album[a][2] Time Out.The single was inducted into the Grammy Hall of Fame in 1996.</MusicDescription>
+				<Released>Released: September 21, 1959</Released>
+				<Recorded>Recorded: July 1, 1959</Recorded>
+				<description>
+					<Title>Title: Take Five</Title>
+					<AudioFormat>Audio Format: Vinyl records</AudioFormat>
+					<length>Length: 2:55(single version)</length>
+				</description>
+			</Genre>
+				
+			<Genre Type="Jazz">
+				<Album>Kind of Blue</Album>
+				<img2></img2>
+				<Director>Director: </Director>
+				<Producer>Producer: Teo Macero</Producer>
+				<Writer>Writer: Miles Davis</Writer>
+				<MusicDescription>Description: "So What" is one of the best known examples of modal jazz, set in the Dorian mode and consisting of 16 bars of D Dorian, followed by eight bars of E♭ Dorian and another eight of D Dorian.[1] This AABA structure puts it in the thirty-two-bar format of American popular song.</MusicDescription>
+				<Released>Released: August 17, 1959</Released>
+				<Recorded>Recorded: March 2, 1959</Recorded>
+				<description>
+					<Title>Title: So What</Title>
+					<AudioFormat>AudioFormat: Compact disc</AudioFormat>
+					<length>Length: 9:22</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="Jazz">
+				<Album>Data Lords</Album>
+				<img3></img3>
+				<Director>Director: </Director>
+				<Producer>Producer: Maria Schneider, Brian Camelio, Ryan Truesdell</Producer>
+				<Writer>Writer: Maria Schneider Orchestra</Writer>
+				<MusicDescription>Description: Data Lords is an album by the Maria Schneider Orchestra that was released in 2020. It liner notes call "a story of two worlds" and are much like a two-disk release. The two sections are named "The Digital World" and the "The Natural World".The album won the Grammy Award for Best Large Jazz Ensemble Album in 2021, and the track "Sputnik" won the Grammy Award for Best Instrumental Composition.</MusicDescription>
+				<Released>Released: July 24, 2020</Released>
+				<Recorded>Recorded: August 30, 2019 - September 2, 2019</Recorded>
+				<description>
+					<Title>Title: Sputnik</Title>
+					<AudioFormat>AudioFormat: vinyl records</AudioFormat>
+					<length>Length: 8:10</length>
+				</description>
+			</Genre>			
+		</Jazz>
+		<Rock>
+			<Genre Type="Rock">
+				<Album>A Night at the Opera</Album>
+				<img4></img4>
+				<Director>Director: Bruce Gowers</Director>
+				<Producer>Producer: Roy Thomas Baker</Producer>
+				<Writer>Writer: Freddie Mercury</Writer>
+				<MusicDescription>Description: "Bohemian Rhapsody" is a song by the British rock band Queen. The song is a six-minute suite,[1] notable for its lack of a refraining chorus and consisting of several sections: an intro, a ballad segment, an operatic passage, a hard rock part and a reflective coda. It  achieve widespread commercial success and appeal to a mainstream audience.</MusicDescription>
+				<Released>Released: 31 October 1975</Released>
+				<Recorded>Recorded:August–September 1975</Recorded>
+				<description>
+					<Title>Title: Bohemian Rhapsody</Title>
+					<AudioFormat>Audio Format: Vinyl records, MP3</AudioFormat>
+					<length>Length: 5:55</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="Rock">
+				<Album> Hotel California </Album>
+				<img5></img5>
+				<Director>Director: </Director>
+				<Producer>Producer: Bill Szymczyk</Producer>
+				<Writer>Writer: Don Felder, Don Henley, Glenn Frey</Writer>
+				<MusicDescription>Description: "Hotel California" is the title track from the Eagles' album of the same name. The song is considered the most famous recording by the band, and in 1998 its long guitar coda was voted the best guitar solo of all time by readers of Guitarist.</MusicDescription>
+				<Released>Released: February 22, 1977</Released>
+				<Recorded>Recorded: 1976</Recorded>
+				<description>
+					<Title>Title: Hotel California</Title>
+					<AudioFormat>Audio Format:Compact disc, MP3 </AudioFormat>
+					<length> Length: 6:30</length>
+				</description>
+			</Genre>
+
+			<Genre Type="Rock">
+				<Album>The Wall</Album>
+				<img6></img6>
+				<Director>Director: </Director>
+				<Producer>Producer: Bob Ezrin, David Gilmour, James Guthrie, Roger Waters</Producer>
+				<Writer>Writer: David Gilmour, Roger Waters</Writer>
+				<MusicDescription>Description: "Comfortably Numb" is a song on Pink Floyd's eleventh album, The Wall (1979). It was released as a single in 1980 with "Hey You" as the B-side. "Comfortably Numb" is one of Pink Floyd's most well-known songs, notable for its two guitar solos. An early version was included on the 2012 Wall "Immersion Box Set".</MusicDescription>
+				<Released>Released: 23 June 1980</Released>
+				<Recorded>Recorded: April–November 1979</Recorded>
+				<description>
+					<Title>Title: Confortably Numb</Title>
+					<AudioFormat>AudioFormat: </AudioFormat>
+					<length>Length: 3:59(single edit)</length>
+				</description>
+			</Genre>
+		</Rock>
+		<CountryMusic>
+			<Genre Type="CountryMusic">
+				<Album>Goldmine</Album>
+				<img7></img7>
+				<Director>Director: Taylor Kelly, Brian Vaughan</Director>
+				<Producer>Producer: Zach Kale, Ross Copperman</Producer>
+				<Writer>Writer: Gabby Barrett, Zach Kale, Jon Nite</Writer>
+				<MusicDescription>Description: "I Hope" is a song co-written and recorded by American country music singer Gabby Barrett. The song received a Country Music Association Award for Single of the Year nomination at the 54th Annual CMA Awards.</MusicDescription>
+				<Released>Released: July 29, 2019</Released>
+				<Recorded>Recorded: 2019</Recorded>
+				<description>
+					<Title>Title: I hope</Title>
+					<AudioFormat>Audio Format: MP3</AudioFormat>
+					<length>Length: 3:23</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="CountryMusic">
+				<Album>Johnny Cash with His Hot and Blue Guitar!</Album>
+				<img8></img8>
+				<Director>Director: </Director>
+				<Producer>Producer: Sam Phillips</Producer>
+				<Writer>Writer: Johnny Cash</Writer>
+				<MusicDescription>Description: I Walk the Line" is a song written and recorded in 1956 by Johnny Cash. After three attempts with moderate chart ratings, it became Cash's first #1 hit on the Billboard charts, eventually reaching #17 on the US pop charts.</MusicDescription>
+				<Released>Released: May 1, 1956</Released>
+				<Recorded>Recorded: April 2, 1956</Recorded>
+				<description>
+					<Title>Title: I Walk The Line</Title>
+					<AudioFormat>Audio Format: Vinyl records</AudioFormat>
+					<length>Length: 2:45</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="CountryMusic">
+				<Album>Tangled Up</Album>
+				<img9></img9>
+				<Director>Director: TK McKamy</Director>
+				<Producer>Producer: Dann Huff, Jesse Frasure</Producer>
+				<Writer>Writer: Thomas Rhett, Sean Douglas, Joe Spargur</Writer>
+				<MusicDescription>Description: "Die a Happy Man" is a song co-written and recorded by American country music singer Thomas Rhett. The song peaked at number 21 on the US Billboard Hot 100, becoming his highest-charting single on that chart.</MusicDescription>
+				<Released>Released: September 28, 2015</Released>
+				<Recorded>Recorded: 2015</Recorded>
+				<description>
+					<Title>Title: Die a Happy Man</Title>
+					<AudioFormat>AudioFormat: MP3</AudioFormat>
+					<length>Length: 3:47</length>
+				</description>
+			</Genre>
+		</CountryMusic>
+		<PopMusic>
+			<Genre Type="PopMusic">
+				<Album>Teenage Dream</Album>
+				<img10></img10>
+				<Director>Director: Dave Meyers</Director>
+				<Producer>Producer: StargateSandy Vee</Producer>
+				<Writer>Writer: Katy Perry, Mikkel S. Eriksen, Tor Erik Hermansen, Sandy Wilhelm, Ester Dean</Writer>
+				<MusicDescription>Description: "Firework" is a song co-written and recorded by American singer Katy Perry from her third studio album. The song was commercially successful, reaching number 1 on the Billboard Hot 100 and the top five on 20 charts around the world. "Firework" has sold over 1 million copies in the United Kingdom.</MusicDescription>
+				<Released>Released: October 26, 2010</Released>
+				<Recorded>Recorded: 2010</Recorded>
+				<description>
+					<Title>Title: Firework</Title>
+					<AudioFormat>Audio Format: MP3, WAV</AudioFormat>
+					<length>Length: 3:48</length>
+				</description>
+			</Genre>
+
+			<Genre Type="PopMusic">
+				<Album>Purpose</Album>
+				<img11></img11>
+				<Director>Director: Parris Goebel</Director>
+				<Producer>Producer: Skrillex, BloodPop</Producer>
+				<Writer>Writer: Justin Bieber</Writer>
+				<MusicDescription>Description: "Sorry" is a song recorded by Canadian singer Justin Bieber for his fourth studio album, Purpose. Commercially, the song topped the charts of thirteen countries. It spent seven weeks at number one on the Canadian Hot 100 and three weeks at number one on the US Billboard Hot 100.</MusicDescription>
+				<Released>Released: October 22, 2015</Released>
+				<Recorded>Recorded: 2015</Recorded>
+				<description>
+					<Title>Title: Sorry</Title>
+					<AudioFormat>Audio Format: MP3, WAV</AudioFormat>
+					<length>Length: 3:20</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="PopMusic">
+				<Album> 1989 </Album>
+				<img12></img12>
+				<Director>Director: Mark Romanek</Director>
+				<Producer>Producer: Max Martin, Shellback</Producer>
+				<Writer>Writer: Taylor Swift</Writer>
+				<MusicDescription>Description: "Shake It Off" is a song by American singer-songwriter Taylor Swift.  In the U.S., the single spent 50 weeks–including four weeks at number one–on the Billboard Hot 100. The song has received numerous accolades, including Favorite Song at the 2015 People's Choice Awards and three Grammy nominations at the 2015 Grammy Awards.</MusicDescription>
+				<Released>Released: August 19, 2014</Released>
+				<Recorded>Recorded: 2014</Recorded>
+				<description>
+					<Title>Title: Shake It Off</Title>
+					<AudioFormat>Audio Format: MP3</AudioFormat>
+					<length>Length: 3:39</length>
+				</description>
+			</Genre>
+		</PopMusic>
+		<Dubstep>
+			<Genre Type="Dubstep">
+				<Album>Watch the Throne</Album>
+				<img13></img13>
+				<Director>Director: Kanye West</Director>
+				<Producer>Producer: Hit-Boy, Kanye West, Mike Dean, Anthony Kilhoffer</Producer>
+				<Writer>Writer: Kanye West</Writer>
+				<MusicDescription>Description: "Niggas in Paris" (edited for radio as "Fellas In Paris" or simply "Paris"; censored on the album as "Ni**as in Paris"). On the week of the album's release, the song debuted at number 75 on the US Billboard Hot 100 eventually peaking at number 5. As of 2018, it has sold 6.7 million archetype digital units in the United States.[4] The song won Best Rap Performance and Best Rap Song at the 55th Annual Grammy Awards.</MusicDescription>
+				<Released>Released: September 13, 2011</Released>
+				<Recorded>Recorded: 2011</Recorded>
+				<description>
+					<Title>Title: NIggas in Paris</Title>
+					<AudioFormat>Audio Format: MP3, Amazon Music, CD</AudioFormat>
+					<length>Length: 3:38</length>
+				</description>
+			</Genre>
+			
+			<Genre Type="Dubstep">
+				<Album>Diary of an Afro Warrior</Album>
+				<img14></img14>
+				<Director>Director: </Director>
+				<Producer>Producer: Geeneus</Producer>
+				<Writer>Writer: Benga</Writer>
+				<MusicDescription>Description: Night was the first dubstep track to be represented on the BBC Radio 1 daytime playlist. It was named as 'one of the biggest tracks of the year' by Music Week. Night was voted Track of The Year 2007 by Radio 1's Gilles Peterson and his listeners.</MusicDescription>
+				<Released>Released: Jan 28, 2008</Released>
+				<Recorded>Recorded: 2007</Recorded>
+				<description>
+					<Title>Title: Night</Title>
+					<AudioFormat>Audio Format: MP3, CD</AudioFormat>
+					<length>Length: 2:55</length>
+				</description>
+			</Genre>
+				
+			<Genre Type="Dubstep">
+				<Album>Skream!</Album>
+				<img15></img15>
+				<Director>Director: </Director>
+				<Producer>Producer: skream</Producer>
+				<Writer>Writer: Skream</Writer>
+				<MusicDescription>Description: Skream! is the self-titled, debut album by dubstep producer Skream. It was released in 2006 on the Tempa label. "Midnight Request Line" wasn't an immediate hit. For Jones, it was just one of hundreds of tunes taking up room on his hard drive.</MusicDescription>
+				<Released>Released: 31 October 2005</Released>
+				<Recorded>Recorded: 2005</Recorded>
+				<description>
+					<Title>Title: Midnight Request Line</Title>
+					<AudioFormat>Audio Format: Compact disc </AudioFormat>
+					<length>Length: 3:56</length>
+				</description>
+			</Genre>
+		</Dubstep>
+	</MusicList>
+</MusicStore>
+</schema>
